@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Roboto', Tahoma, 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  overflow: auto;
+}
+
+html {
+  overflow: auto !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+select {
+  background-color: white;
+}
+.main {
+  margin: initial;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  &:hover {
+    background: #74c0fc;
+  }
+}
